@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta name="description" content="Application Form for Zo Classes">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="fullform">
+        <form action="#" method="post">
+            <div class="contact-info">
+                <h2>Your Contact Info</h2>
+                <h3>Your Name</h3>
+                <input placeholder="Enter your name" class="box">
+                <h3>Email</h3>
+                <input placeholder="Enter your email address" class="box">
+                <h3>Phone Number</h3>
+                <input placeholder="Enter your phone number" class="box">
+            </div>
+            <div class="skills">
+                <h2>Your Skills and Interests</h2>
+                <div class="classes">
+                    <h3>What course are you interested in?</h3>
+                    <select name="class-options">
+                        <option value="none" disabled selected>Select</option>
+                        <option value="dropdown">Lions</option>
+                        <option value="dropdown">Tigers</option>
+                        <option value="dropdown">Pistons</option>
+                        <option value="dropdown">Red Wings</option>
+                    </select>
+                    <h3>Where do you want to take this course?</h3>
+                    <input type="radio" name="location" class="location" value="San Francisco"> San Francisco
+                    <input type="radio" name="location" class="location" value="Chicago"> Chicago
+                    <h3>Past Exerience</h3>
+                    <textarea rows="5" cols="50"></textarea>
+                </div>
+            </div>
+            <div class=bottom>
+                I want to recieve email updates.
+                <input type="checkbox">
+            </div>
+            <div>
+                <input type="submit" id="submit" value="Submit Application">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
